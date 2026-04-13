@@ -6,7 +6,6 @@ import bedroom1 from "./assets/images/bedroom1.png";
 import bedroom11 from "./assets/images/bedroom11.png";
 import building1 from "./assets/images/building1.png";
 import building2 from "./assets/images/building2.png";
-import inFlats from "./assets/images/In-Flats-or-Apartments.jpg";
 import kitchen11 from "./assets/images/Kitchen11.png";
 import lShapedKitchen from "./assets/images/l-shaped-modular-kitchen.jpg";
 import sittingroom21 from "./assets/images/sittingroom21.png";
@@ -169,10 +168,6 @@ function App() {
 						<div className="gallery-item">
 							<img src={smallLivingRoom} alt="Cozy living room arrangement" />
 							<p>Comfortable living space</p>
-						</div>
-						<div className="gallery-item">
-							<img src={inFlats} alt="Interior flats or apartments" />
-							<p>Modern apartment interiors</p>
 						</div>
 					</div>
 				</section>
