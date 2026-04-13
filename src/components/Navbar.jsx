@@ -12,6 +12,7 @@ function Navbar() {
 				<a href="#home">Home</a>
 				<a href="#about">About</a>
 				<a href="#features">Features</a>
+				<a href="#gallery">Gallery</a>
 				<a href="#location">Location</a>
 				<a href="#contact">Contact</a>
 			</nav>
