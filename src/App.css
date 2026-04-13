@@ -279,12 +279,28 @@ main {
 	display: block;
 }
 
+.gallery-item-large {
+	grid-column: span 2;
+}
+
+.gallery-item-large img {
+	height: 320px;
+	object-fit: contain;
+	background: #f4f2ea;
+}
+
 .gallery-item p {
 	margin: 0;
 	padding: 16px 20px;
 	font-weight: 600;
 	color: #0b1e16;
 	text-align: center;
+}
+
+@media (max-width: 720px) {
+	.gallery-item-large {
+		grid-column: span 1;
+	}
 }
 .location-grid {
 	display: grid;

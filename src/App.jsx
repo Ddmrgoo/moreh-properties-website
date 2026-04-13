@@ -133,7 +133,7 @@ function App() {
 						subtitle="Explore the elegant spaces and modern design of our duplex units."
 					/>
 					<div className="gallery-grid">
-						<div className="gallery-item">
+						<div className="gallery-item gallery-item-large">
 							<img src={building1} alt="Exterior view of the duplex building" />
 							<p>Modern duplex exterior</p>
 						</div>
