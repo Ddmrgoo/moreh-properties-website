@@ -1,9 +1,11 @@
+import logo from "../assets/logo.svg";
+
 function Navbar() {
 	return (
 		<header className="site-header">
 			<div className="brand">
 				<img
-					src="/src/assets/logo.svg"
+					src={logo}
 					alt="Moreh Properties Logo"
 					className="brand-mark-svg"
 				/>

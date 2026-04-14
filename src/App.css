@@ -360,7 +360,7 @@ main {
 
 .gallery-item img {
 	width: 100%;
-	height: 280px;
+	height: 220px;
 	object-fit: cover;
 	display: block;
 	background: #f4f2ea;
@@ -371,7 +371,7 @@ main {
 }
 
 .gallery-item-large img {
-	height: 280px;
+	height: 220px;
 	width: 100%;
 	object-fit: cover;
 	background: #f4f2ea;
