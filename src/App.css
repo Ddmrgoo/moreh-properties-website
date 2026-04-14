@@ -60,6 +60,49 @@ main {
 	align-items: center;
 }
 
+.nav-content {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.menu-toggle {
+	display: none;
+	border: none;
+	background: transparent;
+	color: #f8faf7;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu-toggle span {
+	display: block;
+	height: 2px;
+	width: 18px;
+	background: currentColor;
+	border-radius: 999px;
+	margin: 4px 0;
+	transition:
+		transform 0.25s ease,
+		opacity 0.25s ease;
+}
+
+.menu-toggle.is-open span:nth-child(1) {
+	transform: translateY(6px) rotate(45deg);
+}
+
+.menu-toggle.is-open span:nth-child(2) {
+	opacity: 0;
+}
+
+.menu-toggle.is-open span:nth-child(3) {
+	transform: translateY(-6px) rotate(-45deg);
+}
+
 .nav-links a,
 .nav-actions a {
 	color: #f8faf7;
@@ -163,22 +206,40 @@ main {
 		margin-bottom: 8px;
 	}
 
-	.nav-links {
+	.menu-toggle {
+		display: flex;
 		order: 2;
+	}
+
+	.nav-content {
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		gap: 12px;
+		margin-top: 8px;
+		padding: 0 12px;
+	}
+
+	.nav-content.open {
+		display: flex;
+	}
+
+	.nav-links {
+		order: 3;
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 8px;
 		width: 100%;
-		margin-bottom: 8px;
 	}
 
 	.nav-links a {
 		font-size: 0.8rem;
-		padding: 4px 8px;
+		padding: 8px 10px;
 	}
 
 	.nav-actions {
-		order: 3;
+		order: 4;
 		justify-content: center;
 		gap: 6px;
 		width: 100%;
