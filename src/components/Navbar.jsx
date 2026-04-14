@@ -2,7 +2,11 @@ function Navbar() {
 	return (
 		<header className="site-header">
 			<div className="brand">
-				<span className="brand-mark">M</span>
+				<img
+					src="/src/assets/logo.svg"
+					alt="Moreh Properties Logo"
+					className="brand-mark-svg"
+				/>
 				<div>
 					<p className="brand-label">Moreh Properties LTD</p>
 					<p className="brand-tag">Luxury duplex development</p>
