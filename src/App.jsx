@@ -17,21 +17,22 @@ const featureItems = [
 	{
 		title: "4-Bedroom Ensuite",
 		description:
-			"Private bedrooms with full ensuite bathrooms and elegant finishes.",
+			"Four bedrooms each with its own spacious bathroom and elegant finishes.",
 	},
 	{
 		title: "Boys’ Quarters",
-		description: "A fully finished boys’ quarters for staff or guests.",
+		description:
+			"A fully finished boys’ quarters for staff or guests, providing generous space.",
 	},
 	{
 		title: "Solar Inverter",
 		description:
-			"Modern solar inverter system for reliable energy and efficiency.",
+			"Modern solar inverter system for reliable energy, efficiency, and sustainability.",
 	},
 	{
-		title: "Spacious Layout",
+		title: "Premium Finishes",
 		description:
-			"Open-plan design with premium finishes and generous living spaces.",
+			"Open-plan design with premium finishes, contemporary kitchen, and elegant spaces.",
 	},
 ];
 
@@ -84,11 +85,14 @@ function App() {
 					<div className="hero-copy">
 						<span className="eyebrow">Luxury duplex living</span>
 						<h1>
-							Moreh Properties LTD presents a premium 5-unit duplex development
+							Welcome to Moreh Properties, where we bring you luxurious living
+							at an accessible price
 						</h1>
 						<p>
-							Discover modern 4-bedroom ensuite units with boys’ quarters, solar
-							inverter support, and refined finishes in Awoyaya.
+							Moreh Properties LTD is proud to introduce our latest premium
+							development—an exclusive collection of five semi-detached duplexes
+							and five terrace units. Four bedrooms each with its own spacious
+							bathroom.
 						</p>
 						<div className="hero-actions">
 							<a href="tel:+2349058256913" className="button button-primary">
@@ -129,12 +133,13 @@ function App() {
 							We also accept Bitcoin and Ethereum
 						</p>
 						<ul className="hero-list">
-							<li>5-unit semi-detached duplex</li>
+							<li>5 semi-detached duplexes</li>
+							<li>5 terrace units</li>
 							<li>4-bed ensuite + boys’ quarters</li>
 							<li>Achievers Crescent, Awoyaya</li>
 						</ul>
 						<div className="hero-meta">
-							<span>Modern finishes</span>
+							<span>Premium finishes</span>
 							<span>Solar inverter system</span>
 						</div>
 					</div>
@@ -146,12 +151,13 @@ function App() {
 						subtitle="A refined property offering in a premium Awoyaya neighborhood."
 					/>
 					<p>
-						Moreh Properties LTD is delivering an exclusive 5-unit semi-detached
-						duplex community. Each unit includes a spacious 4-bedroom ensuite
-						setup, separate boys’ quarters, modern finishes, and a dedicated
-						solar inverter system. The development is positioned on Achievers
-						Crescent beside Attwool School, off Awoyaya Bus Stop, before Mayfair
-						Gardens.
+						Priced at one hundred and forty-seven thousand dollars—with flexible
+						payment options including Bitcoin and Ethereum—this is more than
+						just a home; it's a refined investment in a premium neighborhood.
+						Every detail has been crafted for comfort, convenience, and
+						long-term value. Experience the peace of mind that comes with a
+						dedicated solar inverter system, ensuring your home remains powered,
+						efficient, and sustainable.
 					</p>
 				</section>
 
@@ -218,20 +224,20 @@ function App() {
 				<section id="location" className="section location-section">
 					<SectionHeading
 						title="Prime Awoyaya location"
-						subtitle="Easy access, strong neighborhood appeal, and clear direction to the location."
+						subtitle="Easy access, strong neighborhood appeal, and proximity to top schools."
 					/>
 					<div className="location-grid">
 						<div className="location-copy">
 							<p>
-								Ideally located on Achievers Crescent near Attwool School and
-								before Mayfair Gardens, this development gives buyers a
-								residential address that balances city access with peaceful
-								suburban living.
+								Situated on Achievers Crescent in Awoyaya, this development
+								perfectly balances city access with peaceful suburban living.
+								Greensprings School—ranked among the top three schools in
+								Nigeria—is just a short, five-minute drive away.
 							</p>
 							<ul>
-								<li>Beside Attwool School</li>
+								<li>Near Greensprings School</li>
 								<li>Off Awoyaya Bus Stop</li>
-								<li>Before Mayfair Gardens</li>
+								<li>Premium Awoyaya neighborhood</li>
 							</ul>
 						</div>
 						<div className="map-frame">
@@ -247,10 +253,9 @@ function App() {
 							/>
 							<div className="map-overlay">
 								<p className="map-address">
-									<strong>Location:</strong> Achievers Crescent, Beside Attwool
-									School
+									<strong>Location:</strong> Achievers Crescent, Awoyaya
 									<br />
-									Off Awoyaya Bus Stop, Before Mayfair Gardens
+									Near Greensprings School (5-min drive)
 								</p>
 								<a
 									href="https://www.google.com/maps/dir/?api=1&destination=Achievers+Crescent+Awoyaya+Lagos"
