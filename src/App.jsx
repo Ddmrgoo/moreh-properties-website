@@ -85,8 +85,8 @@ function App() {
 					<div className="hero-copy">
 						<span className="eyebrow">Luxury duplex living</span>
 						<h1>
-							Welcome to Moreh Properties, where we bring you luxurious living
-							at an accessible price
+							Welcome to Moreh Properties, Where We Bring You Luxurious Living
+							At An Accessible Price
 						</h1>
 						<p>
 							Moreh Properties LTD is proud to introduce our latest premium
