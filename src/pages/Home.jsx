@@ -34,7 +34,7 @@ export default function Home() {
 				</h1>
 				<p>
 					Moreh Properties LTD is proud to introduce our latest premium
-					development—an exclusive collection of five semi-detached duplexes and
+					development,an exclusive collection of five semi-detached duplexes and
 					five terrace units. Four bedrooms each with its own spacious bathroom.
 				</p>
 				<div className="hero-actions">
