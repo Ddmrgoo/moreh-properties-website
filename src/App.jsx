@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Navbar from "./components/Navbar";
 import SectionHeading from "./components/SectionHeading";
 import bathroom11 from "./assets/images/bathroom11.png";
@@ -10,6 +10,7 @@ import kitchen11 from "./assets/images/Kitchen11.png";
 import lShapedKitchen from "./assets/images/l-shaped-modular-kitchen.jpg";
 import sittingroom21 from "./assets/images/sittingroom21.png";
 import smallLivingRoom from "./assets/images/Small-Living-Room-Arrangement-02-0503030007.jpg";
+import audioFile from "./assets/audio/Recording_web-audio.mp3";
 import "./App.css";
 
 const featureItems = [
@@ -42,6 +43,8 @@ function App() {
 		message: "",
 	});
 	const [submitted, setSubmitted] = useState(false);
+	const [isPlaying, setIsPlaying] = useState(false);
+	const audioRef = useRef(null);
 
 	const handleChange = (event) => {
 		const { name, value } = event.target;
@@ -52,6 +55,25 @@ function App() {
 		event.preventDefault();
 		setSubmitted(true);
 		setForm({ name: "", email: "", phone: "", message: "" });
+	};
+
+	const toggleAudio = () => {
+		if (audioRef) {
+			if (isPlaying) {
+				audioRef.pause();
+			} else {
+				audioRef.play();
+			}
+			setIsPlaying(!isPlaying);
+		}
+	};
+
+	const stopAudio = () => {
+		if (audioRef) {
+			audioRef.pause();
+			audioRef.currentTime = 0;
+			setIsPlaying(false);
+		}
 	};
 
 	return (
@@ -80,6 +102,24 @@ function App() {
 							<a href="#contact" className="button button-ghost">
 								Book Inspection
 							</a>
+						</div>
+						<div className="audio-controls">
+							<button
+								onClick={toggleAudio}
+								className="button button-primary audio-button">
+								{isPlaying ? "Pause Audio" : "Play Audio"}
+							</button>
+							<button
+								onClick={stopAudio}
+								className="button button-secondary audio-button">
+								Stop Audio
+							</button>
+							<audio
+								ref={audioRef}
+								src={audioFile}
+								onEnded={() => setIsPlaying(false)}
+								preload="metadata"
+							/>
 						</div>
 					</div>
 					<div className="hero-card">

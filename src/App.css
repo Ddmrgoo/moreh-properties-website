@@ -320,6 +320,24 @@ main {
 	justify-content: center;
 }
 
+.audio-controls {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	justify-content: center;
+	margin-top: 24px;
+	align-items: center;
+}
+
+.audio-button {
+	min-width: 120px;
+	font-size: 0.9rem;
+}
+
+.audio-controls audio {
+	display: none;
+}
+
 .hero-card {
 	background: linear-gradient(180deg, #fbf6ea 0%, #f6f1e2 100%);
 	border: 1px solid rgba(11, 30, 22, 0.12);
