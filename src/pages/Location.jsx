@@ -4,7 +4,7 @@ export default function Location() {
 	return (
 		<section id="location" className="section location-section">
 			<SectionHeading
-				title="Prime Awoyaya location"
+				title="Prime Awoyaya Location"
 				subtitle="Easy access, strong neighborhood appeal, and proximity to top schools."
 			/>
 			<div className="location-grid">

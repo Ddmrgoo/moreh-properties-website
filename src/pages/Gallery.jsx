@@ -13,7 +13,7 @@ export default function Gallery() {
 	return (
 		<section id="gallery" className="section gallery-section">
 			<SectionHeading
-				title="Interior highlights"
+				title="Interior Highlights"
 				subtitle="Explore the elegant spaces and modern design of our duplex units."
 			/>
 			<div className="gallery-grid">

@@ -4,8 +4,8 @@ export default function About() {
 	return (
 		<section id="about" className="section about-section">
 			<SectionHeading
-				title="About the development"
-				subtitle="A refined property offering in a premium Awoyaya neighborhood."
+				title="About The Development"
+				subtitle="A Refined Property Offering In A Premium Awoyaya Neighborhood."
 			/>
 			<p>
 				Priced at one hundred and forty-seven thousand dollars—with flexible

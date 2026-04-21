@@ -24,7 +24,7 @@ export default function Contact() {
 	return (
 		<section id="contact" className="section contact-section">
 			<SectionHeading
-				title="Get in touch"
+				title="Get In Touch"
 				subtitle="Reach out today to book an inspection or request more details."
 			/>
 			<div className="contact-grid">
