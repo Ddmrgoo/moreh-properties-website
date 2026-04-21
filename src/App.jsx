@@ -58,20 +58,20 @@ function App() {
 	};
 
 	const toggleAudio = () => {
-		if (audioRef) {
+		if (audioRef.current) {
 			if (isPlaying) {
-				audioRef.pause();
+				audioRef.current.pause();
 			} else {
-				audioRef.play();
+				audioRef.current.play();
 			}
 			setIsPlaying(!isPlaying);
 		}
 	};
 
 	const stopAudio = () => {
-		if (audioRef) {
-			audioRef.pause();
-			audioRef.currentTime = 0;
+		if (audioRef.current) {
+			audioRef.current.pause();
+			audioRef.current.currentTime = 0;
 			setIsPlaying(false);
 		}
 	};
