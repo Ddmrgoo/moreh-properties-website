@@ -8,8 +8,8 @@ export default function About() {
 				subtitle="A Refined Property Offering In A Premium Awoyaya Neighborhood."
 			/>
 			<p>
-				Priced at one hundred and forty-seven thousand dollars—with flexible
-				payment options including Bitcoin and Ethereum—this is more than just a
+				Priced at one hundred and forty-seven thousand dollars,with flexible
+				payment options including Bitcoin and Ethereum. This is more than just a
 				home; it's a refined investment in a premium neighborhood. Every detail
 				has been crafted for comfort, convenience, and long-term value.
 				Experience the peace of mind that comes with a dedicated solar inverter

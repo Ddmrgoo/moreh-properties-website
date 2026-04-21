@@ -12,7 +12,7 @@ export default function Location() {
 					<p>
 						Situated on Achievers Crescent in Awoyaya, this development
 						perfectly balances city access with peaceful suburban living.
-						Greensprings School—ranked among the top three schools in Nigeria—is
+						Greensprings School ranked among the top three schools in Nigeria,is
 						just a short, five-minute drive away.
 					</p>
 					<ul>
